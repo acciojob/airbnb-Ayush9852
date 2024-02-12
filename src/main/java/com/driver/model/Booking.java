@@ -1,7 +1,11 @@
 package com.driver.model;
 
+import javax.annotation.processing.Generated;
+import javax.persistence.GeneratedValue;
+
 public class Booking {
 
+    // @GeneratedValue(strategy=GenerationType.UUID)
     private String bookingId; //This will be a random UUID generated String
 
     private int bookingAadharCard;
